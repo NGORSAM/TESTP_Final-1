@@ -1,7 +1,13 @@
 package com.exemple.demo.classes;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Produit {
-	private int id, quantite;
+	@Id
+	private int id;
+	int quantite;
 	private String titre;
 	private float prixu , prixv;
 	/**
