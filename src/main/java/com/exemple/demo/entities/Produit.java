@@ -30,14 +30,14 @@ public class Produit {
 	/**
 	 * @return the id
 	 */
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
 	/**
 	 * @param id the id to set
 	 */
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -97,7 +97,7 @@ public class Produit {
 		this.prixv = prixv;
 	}
 
-	public Produit(int id, int quantite, String titre, float prixu, float prixv) {
+	public Produit(long id, int quantite, String titre, float prixu, float prixv) {
 		super();
 		this.id = id;
 		this.quantite = quantite;
